@@ -1,0 +1,90 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "To search cucumber in google",
+    "tags": [],
+    "uri": "D:\\selenium\\protractor_cucumber\\PROTRACTOR_CUCUMBERJS_TYPESCRIPT\\e2e\\features\\cucumber.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Cucumber Google Search",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@CucumberScenario"
+          }
+        ],
+        "id": "to-search-cucumber-in-google;cucumber-google-search",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on google page",
+            "result": {
+              "status": "passed",
+              "duration": 2
+            },
+            "line": 5,
+            "match": {
+              "location": "D:\\selenium\\protractor_cucumber\\PROTRACTOR_CUCUMBERJS_TYPESCRIPT\\e2e\\stepdefinitions\\homePage.ts:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I type \"Cucumber\"",
+            "result": {
+              "status": "passed",
+              "duration": 6953
+            },
+            "line": 6,
+            "match": {
+              "location": "D:\\selenium\\protractor_cucumber\\PROTRACTOR_CUCUMBERJS_TYPESCRIPT\\e2e\\stepdefinitions\\search.ts:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I clear the search text",
+            "result": {
+              "status": "passed",
+              "duration": 351
+            },
+            "line": 7,
+            "match": {
+              "location": "D:\\selenium\\protractor_cucumber\\PROTRACTOR_CUCUMBERJS_TYPESCRIPT\\e2e\\stepdefinitions\\clearPage.ts:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click on search button",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "line": 8,
+            "match": {
+              "location": "D:\\selenium\\protractor_cucumber\\PROTRACTOR_CUCUMBERJS_TYPESCRIPT\\e2e\\stepdefinitions\\search.ts:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\selenium\\protractor_cucumber\\PROTRACTOR_CUCUMBERJS_TYPESCRIPT\\e2e\\support\\hooks.ts:20"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "to-search-cucumber-in-google"
+  }
+]
